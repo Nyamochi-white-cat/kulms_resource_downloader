@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "KULMS Resource Downloader",
+  "version": "1.0",
+  "description": "KULMSのサイトリソースでファイル・フォルダを直接ダウンロード（フォルダの場合はZIP化）します。",
+  "permissions": ["downloads"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://lms.gakusei.kyoto-u.ac.jp/*"],
+      "all_frames": true,
+      "js": ["jszip.min.js", "content.js"]
+    }
+  ]
+}
