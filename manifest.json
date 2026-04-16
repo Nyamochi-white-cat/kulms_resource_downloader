@@ -4,10 +4,10 @@
   "version": "1.0",
   "description": "KULMSのサイトリソースでファイル・フォルダを直接ダウンロード（フォルダの場合はZIP化）します。",
   "icons": {
-    "16": "logo.png",
-    "32": "logo.png",
-    "48": "logo.png",
-    "128": "logo.png"
+    "16": "KUicon16.png",
+    "32": "KUicon32.png",
+    "48": "KUicon48.png",
+    "128": "KUicon128.png"
   },
   "permissions": ["downloads"],
   "background": {
