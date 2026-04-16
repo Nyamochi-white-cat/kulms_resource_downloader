@@ -3,6 +3,14 @@
   "name": "KULMS Resource Downloader",
   "version": "1.0",
   "description": "KULMSのサイトリソースでファイル・フォルダを直接ダウンロード（フォルダの場合はZIP化）します。",
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "action": {
+    "default_icon": "logo.png"
+  },
   "permissions": ["downloads"],
   "background": {
     "service_worker": "background.js"
